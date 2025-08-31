@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { auth, signIn, signOut } from '@/auth'
 
+
 const Navbar = async () => {
 
     const session = await auth(); // This is only possible on server componentes
@@ -49,4 +50,4 @@ const Navbar = async () => {
     )
 }
 
-export default Navbar
+export default Navbar;
